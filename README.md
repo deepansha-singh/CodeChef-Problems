@@ -1,3 +1,3 @@
 # CodeChef-Problems
 
-Here, I will be adding the solutions I used to solve the CodeChef Problems as I practice.
+Just me trying to keep track of my journey, as I solve questions, and pave my own path into CP.
