@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+typedef long long ll;
+typedef long double ld;
+typedef vector<int> vi;
+typedef pair<int, int> pi;
+
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+#define REP(i, a, b) for(ll i = a; i <= b; i++)
+#define SQ(a) (a)*(a)
+
+void solve() {
+  // solution
+  ll n;
+  cin >> n;
+  int sum = 0;
+  sum += (n % 10);
+  int rem;
+  while(n) {
+    rem = n % 10;
+    n /= 10;
+  }
+  sum += rem;
+  cout << sum << "\n";
+}
+
+int main() {
+  ios::sync_with_stdio(0);
+  cin.tie(0);
+  // test case input
+  ll t;
+  cin >> t;
+  while(t--) {
+    solve();
+  }
+  return 0;
+}
